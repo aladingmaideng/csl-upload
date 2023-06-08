@@ -4,16 +4,17 @@ const sendFile = require("./middleware/sendFile");
 const promiseReducer = require("./utils/promiseReducer");
 const fetch = require("node-fetch");
 const getTime = require("./utils/getTime");
+const { basename } = require("path");
 async function upload(conf, oncePath) {
   const { path } = conf;
   let urlMap = [];
-
   if (oncePath) {
     urlMap = [oncePath];
   } else {
     urlMap = await getFile(path);
   }
-  console.log("拿到啥了", urlMap);
+  // 去除一些不需要上传的文件
+  urlMap = urlMap.filter((item) => basename(item) !== ".DS_Store");
   return await promiseReducer(
     urlMap.map((url) => {
       return () => {

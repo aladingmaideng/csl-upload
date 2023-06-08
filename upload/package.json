@@ -1,12 +1,9 @@
 {
   "name": "csl-upload",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "上传脚本",
   "repository": "https://github.com/aladingmaideng/csl-upload/tree/main/upload",
   "bin": "./bin/www",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "cuishoulong",
   "license": "ISC",
   "dependencies": {
