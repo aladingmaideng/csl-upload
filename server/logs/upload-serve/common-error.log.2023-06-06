@@ -1,0 +1,738 @@
+2023-06-02 15:48:51,149 ERROR 97167 [-/127.0.0.1/-/117ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg/lib/application.js:285:15)
+    at Object.get cookies [as cookies] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg/app/extend/context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/app/extend/context.js:90:35)
+    at Object.ensureCsrfSecret (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/app/extend/context.js:103:13)
+    at csrf (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/csrf.js:13:11)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 97167
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 15:49:48,812 ERROR 97697 [-/127.0.0.1/-/8ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg/lib/application.js:285:15)
+    at Object.get cookies [as cookies] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg/app/extend/context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/app/extend/context.js:90:35)
+    at Object.ensureCsrfSecret (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/app/extend/context.js:103:13)
+    at csrf (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/csrf.js:13:11)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 97697
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 15:50:09,098 ERROR 97697 [-/127.0.0.1/-/14ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg/lib/application.js:285:15)
+    at Object.get cookies [as cookies] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg/app/extend/context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/app/extend/context.js:90:35)
+    at Object.ensureCsrfSecret (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/app/extend/context.js:103:13)
+    at csrf (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/csrf.js:13:11)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 97697
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 15:50:25,286 ERROR 97844 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg/lib/application.js:285:15)
+    at Object.get cookies [as cookies] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg/app/extend/context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/app/extend/context.js:90:35)
+    at Object.ensureCsrfSecret (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/app/extend/context.js:103:13)
+    at csrf (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/csrf.js:13:11)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 97844
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:05:26,600 ERROR 99967 [-/127.0.0.1/-/20ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'list')
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:7:46)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 99967
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:05:37,848 ERROR 99967 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'list')
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:7:46)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 99967
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:05:39,011 ERROR 99967 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'list')
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:7:46)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 99967
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:25,627 ERROR 2773 [-/127.0.0.1/-/9ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:28,919 ERROR 2773 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:40,232 ERROR 2773 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:41,133 ERROR 2773 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:41,331 ERROR 2773 [-/127.0.0.1/-/3ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:41,493 ERROR 2773 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:41,783 ERROR 2773 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:41,952 ERROR 2773 [-/127.0.0.1/-/3ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:42,100 ERROR 2773 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:42,261 ERROR 2773 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:42,465 ERROR 2773 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:16:42,673 ERROR 2773 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:8:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2773
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:19:00,299 ERROR 3419 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: ctx.service.index is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:7:40)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 3419
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:26:03,203 ERROR 5182 [-/127.0.0.1/-/8ms GET /upload] nodejs.ReferenceError: ctx is not defined
+    at UploadController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/upload.js:5:5)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 5182
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:26:34,876 ERROR 5233 [-/127.0.0.1/-/8ms GET /upload] nodejs.ReferenceError: newsList is not defined
+    at UploadController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/upload.js:6:16)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 5233
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:54:45,623 ERROR 9939 [-/127.0.0.1/-/4ms POST /?_csrf=asT8kcJ4-fL5lSXLaJrnsyGqXt1cYr2Jqqg8] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:6:56)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 9939
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 16:54:52,824 ERROR 9939 [-/127.0.0.1/-/0ms POST /?_csrf=asT8kcJ4-fL5lSXLaJrnsyGqXt1cYr2Jqqg8] nodejs.TypeError: Cannot read properties of undefined (reading '0')
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:6:56)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 9939
+hostname: macdeMacBook-Pro.local
+
+2023-06-02 17:13:22,720 ERROR 12924 [-/127.0.0.1/-/8ms POST /] nodejs.ReferenceError: page is not defined
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:7:53)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 12924
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 14:25:39,691 ERROR 38077 [-/127.0.0.1/-/35ms POST /] nodejs.ReferenceError: file is not defined
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:9:36)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 38077
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 14:26:04,353 ERROR 38164 [-/127.0.0.1/-/36ms POST /] nodejs.ReferenceError: file is not defined
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:9:36)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 38164
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 14:26:42,783 ERROR 38245 [-/127.0.0.1/-/90ms POST /] nodejs.TypeError: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Object.writeFile (node:internal/fs/promises:760:5)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:13:8)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 38245
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 14:43:26,988 ERROR 41321 [-/127.0.0.1/-/23ms POST /] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:204:24)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:32:30)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 41321
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 14:43:51,307 ERROR 41384 [-/127.0.0.1/-/34ms POST /] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:204:24)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:32:30)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 41384
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 14:44:27,475 ERROR 41465 [-/127.0.0.1/-/34ms POST /] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:204:24)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:32:30)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 41465
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 14:48:27,121 ERROR 42091 [-/127.0.0.1/-/32ms POST /] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:31:23)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 42091
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 14:48:29,072 ERROR 42091 [-/127.0.0.1/-/21ms POST /] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:31:23)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 42091
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:03:09,944 ERROR 44232 [-/127.0.0.1/-/27ms POST /] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:204:24)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:32:30)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 44232
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:05:39,240 ERROR 44421 [-/127.0.0.1/-/32ms POST /] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:204:24)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:32:30)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 44421
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:07:00,945 ERROR 44801 [-/127.0.0.1/-/38ms POST /] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:32:23)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 44801
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:07:19,445 ERROR 44913 [-/127.0.0.1/-/32ms POST /] nodejs.AssertionError: the multipart request can't be consumed twice
+    at Object.multipart (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:43:5)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:32:23)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-compose/index.js:44:32)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 44913
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:21:27,882 ERROR 47179 [-/127.0.0.1/-/30ms POST /] nodejs.TypeError: fs.createWriteStream is not a function
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:44:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-bodyparser/index.js:91:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 47179
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:24:54,124 ERROR 47689 [-/127.0.0.1/-/55ms POST /] nodejs.TypeError: dest.on is not a function
+    at FileStream.Readable.pipe (node:internal/streams/readable:680:8)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:38:12)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-bodyparser/index.js:91:5)
+
+pid: 47689
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:32:07,861 ERROR 48965 [-/127.0.0.1/-/26ms POST /] nodejs.ERR_STREAM_WRITE_AFTER_ENDError: write after end (uncaughtException throw 1 times on pid:48965)
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at FileStream.ondata (node:internal/streams/readable:754:22)
+    at FileStream.emit (node:events:390:28)
+    at FileStream.Readable.read (node:internal/streams/readable:527:10)
+    at flow (node:internal/streams/readable:1012:34)
+    at resume_ (node:internal/streams/readable:993:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+code: "ERR_STREAM_WRITE_AFTER_END"
+name: "ERR_STREAM_WRITE_AFTER_ENDError"
+pid: 48965
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:36:14,681 ERROR 49644 [-/127.0.0.1/-/21ms POST /] nodejs.ReferenceError: stream is not defined
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:14:24)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-bodyparser/index.js:91:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 49644
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:36:34,588 ERROR 49736 [-/127.0.0.1/-/34ms POST /] nodejs.ERR_STREAM_WRITE_AFTER_ENDError: write after end (uncaughtException throw 1 times on pid:49736)
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at FileStream.ondata (node:internal/streams/readable:754:22)
+    at FileStream.emit (node:events:390:28)
+    at FileStream.Readable.read (node:internal/streams/readable:527:10)
+    at flow (node:internal/streams/readable:1012:34)
+    at resume_ (node:internal/streams/readable:993:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+code: "ERR_STREAM_WRITE_AFTER_END"
+name: "ERR_STREAM_WRITE_AFTER_ENDError"
+pid: 49736
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:37:00,922 ERROR 49833 [-/127.0.0.1/-/22ms POST /] nodejs.ERR_STREAM_WRITE_AFTER_ENDError: write after end (uncaughtException throw 1 times on pid:49833)
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at FileStream.ondata (node:internal/streams/readable:754:22)
+    at FileStream.emit (node:events:390:28)
+    at FileStream.Readable.read (node:internal/streams/readable:527:10)
+    at flow (node:internal/streams/readable:1012:34)
+    at resume_ (node:internal/streams/readable:993:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+code: "ERR_STREAM_WRITE_AFTER_END"
+name: "ERR_STREAM_WRITE_AFTER_ENDError"
+pid: 49833
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:37:02,604 ERROR 49833 [-/127.0.0.1/-/10ms POST /] nodejs.ERR_STREAM_WRITE_AFTER_ENDError: write after end (uncaughtException throw 2 times on pid:49833)
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at FileStream.ondata (node:internal/streams/readable:754:22)
+    at FileStream.emit (node:events:390:28)
+    at FileStream.Readable.read (node:internal/streams/readable:527:10)
+    at flow (node:internal/streams/readable:1012:34)
+    at resume_ (node:internal/streams/readable:993:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+code: "ERR_STREAM_WRITE_AFTER_END"
+name: "ERR_STREAM_WRITE_AFTER_ENDError"
+pid: 49833
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:37:34,519 ERROR 49944 [-/127.0.0.1/-/18ms POST /] nodejs.ERR_STREAM_WRITE_AFTER_ENDError: write after end (uncaughtException throw 1 times on pid:49944)
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at FileStream.ondata (node:internal/streams/readable:754:22)
+    at FileStream.emit (node:events:390:28)
+    at FileStream.Readable.read (node:internal/streams/readable:527:10)
+    at flow (node:internal/streams/readable:1012:34)
+    at resume_ (node:internal/streams/readable:993:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+code: "ERR_STREAM_WRITE_AFTER_END"
+name: "ERR_STREAM_WRITE_AFTER_ENDError"
+pid: 49944
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:37:47,327 ERROR 49944 [-/127.0.0.1/-/14ms POST /] nodejs.ERR_STREAM_WRITE_AFTER_ENDError: write after end (uncaughtException throw 2 times on pid:49944)
+    at new NodeError (node:internal/errors:371:5)
+    at _write (node:internal/streams/writable:319:11)
+    at WriteStream.Writable.write (node:internal/streams/writable:334:10)
+    at FileStream.ondata (node:internal/streams/readable:754:22)
+    at FileStream.emit (node:events:390:28)
+    at FileStream.Readable.read (node:internal/streams/readable:527:10)
+    at flow (node:internal/streams/readable:1012:34)
+    at resume_ (node:internal/streams/readable:993:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+code: "ERR_STREAM_WRITE_AFTER_END"
+name: "ERR_STREAM_WRITE_AFTER_ENDError"
+pid: 49944
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:42:00,913 ERROR 50830 [-/127.0.0.1/-/21ms POST /] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/12345/index.html' (uncaughtException throw 1 times on pid:50830)
+Error: ENOENT: no such file or directory, open '/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/12345/index.html'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/12345/index.html"
+name: "ENOENTError"
+pid: 50830
+hostname: macdeMacBook-Pro.local
+
+2023-06-06 15:42:21,261 ERROR 50875 [-/127.0.0.1/-/22ms POST /] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/12345/index.html' (uncaughtException throw 1 times on pid:50875)
+Error: ENOENT: no such file or directory, open '/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/12345/index.html'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/12345/index.html"
+name: "ENOENTError"
+pid: 50875
+hostname: macdeMacBook-Pro.local
+

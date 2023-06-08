@@ -1,0 +1,40 @@
+#! /usr/bin/env node
+const { program } = require("commander");
+const pkg = require("../package.json");
+const config = require("./config");
+const createServe = require("../src/index").default;
+const { existsSync } = require("fs");
+const path = require("path");
+program.name("upload").usage("[options]").version(pkg.version);
+let defaultValue = {};
+
+// 把config里的基础配置取一下,添加到提示和默认配置里
+Object.entries(config).forEach(
+  ([key, { option, description, default: val }]) => {
+    defaultValue[key] = val;
+    program.option(option, description);
+  }
+);
+program.parse();
+
+// 配置文件，合并一下
+const configPath = path.resolve("upload.config.js");
+if (existsSync(configPath)) {
+  const data = require(configPath);
+  defaultValue = Object.assign(defaultValue, data);
+}
+
+// 命令行参数
+const options = program.opts();
+
+// 合并默认参数
+const urlConfig = Object.assign(defaultValue, options);
+
+// 参数d标识获取最终配置详情
+
+if (options["detail"]) {
+  console.log("最终参数：\n", urlConfig);
+  return;
+}
+// 创建服务，开始上传
+createServe(urlConfig);

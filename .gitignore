@@ -1,0 +1,14 @@
+*/node_modules
+node_modules/**
+.vscode
+
+server/logs
+server/run
+
+.idea
+readme.md
+README.md
+.DS_Store
+
+upload.config.js
+

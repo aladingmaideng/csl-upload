@@ -1,0 +1,198 @@
+2023-06-07 16:01:19,789 WARN 77832 [-/127.0.0.1/-/4ms POST /] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:210:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:7:18)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+message: "Can't found upload file"
+pid: 77832
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:01:29,502 WARN 77832 [-/127.0.0.1/-/2ms POST /] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:210:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:7:18)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+message: "Can't found upload file"
+pid: 77832
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:03:16,627 WARN 78162 [-/127.0.0.1/-/15ms POST /] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:210:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:7:18)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+message: "Can't found upload file"
+pid: 78162
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:03:45,523 WARN 78276 [-/127.0.0.1/-/16ms POST /] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:210:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:7:18)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+message: "Can't found upload file"
+pid: 78276
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:05:18,713 WARN 78530 [-/127.0.0.1/-/15ms POST /] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:210:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:23:18)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+message: "Can't found upload file"
+pid: 78530
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:05:35,324 ERROR 78530 [-/127.0.0.1/-/6ms POST /] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir
+    at Object.mkdirSync (node:fs:1334:3)
+    at makep (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:15:10)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:35:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+name: "ENOENTError"
+pid: 78530
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:05:51,901 WARN 78530 [-/127.0.0.1/-/2ms POST /] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.getFileStream (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-multipart/app/extend/context.js:210:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:23:18)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+message: "Can't found upload file"
+pid: 78530
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:06:45,891 ERROR 78727 [-/127.0.0.1/-/12ms POST /] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir
+    at Object.mkdirSync (node:fs:1334:3)
+    at makep (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:14:10)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:34:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+name: "ENOENTError"
+pid: 78727
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:07:57,448 ERROR 78960 [-/127.0.0.1/-/19ms POST /] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir
+    at Object.mkdirSync (node:fs:1334:3)
+    at makep (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:16:10)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:36:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+name: "ENOENTError"
+pid: 78960
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:10:25,040 ERROR 79761 [-/127.0.0.1/-/19ms POST /] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir
+    at Object.mkdirSync (node:fs:1334:3)
+    at makep (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:12:10)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+name: "ENOENTError"
+pid: 79761
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:10:51,457 ERROR 79821 [-/127.0.0.1/-/14ms POST /] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir
+    at Object.mkdirSync (node:fs:1334:3)
+    at makep (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:12:10)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:32:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+name: "ENOENTError"
+pid: 79821
+hostname: macdeMacBook-Pro.local
+
+2023-06-07 16:11:34,590 ERROR 79977 [-/127.0.0.1/-/18ms POST /] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir
+    at Object.mkdirSync (node:fs:1334:3)
+    at makep (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:13:10)
+    at HomeController.index (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/app/controller/home.js:33:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/cuishoulong_cd/Desktop/code/baidu/personal-code/csl-upload/server/node_modules/koa-session/index.js:41:7)
+errno: -2
+syscall: "mkdir"
+code: "ENOENT"
+name: "ENOENTError"
+pid: 79977
+hostname: macdeMacBook-Pro.local
+

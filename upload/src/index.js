@@ -1,0 +1,50 @@
+const chalk = require("chalk");
+const getFile = require("./middleware/getFile");
+const sendFile = require("./middleware/sendFile");
+const promiseReducer = require("./utils/promiseReducer");
+const fetch = require("node-fetch");
+const getTime = require("./utils/getTime");
+async function upload(conf, oncePath) {
+  const { path } = conf;
+  let urlMap = [];
+
+  if (oncePath) {
+    urlMap = [oncePath];
+  } else {
+    urlMap = await getFile(path);
+  }
+  console.log("拿到啥了", urlMap);
+  return await promiseReducer(
+    urlMap.map((url) => {
+      return () => {
+        console.log(chalk.yellow("开始传输：", getTime()), url);
+        // 请求的参数
+        const form = sendFile(conf, url);
+        return fetch(conf.url, {
+          method: "POST",
+          body: form,
+        }).then(async (res) => {
+          let data = await res.json();
+          if (data.status === 0) {
+            console.log(chalk.green("传输成功", getTime()), url);
+          }
+        });
+      };
+    })
+  )
+    .then(() => {
+      console.log(chalk.blue("🚀---------------传输完成-----------------🚀"));
+    })
+    .catch((err) => {
+      console.log(chalk.red("😭---------------失败-----------------😭"));
+      console.log(err);
+    });
+}
+exports.upload = upload;
+exports.default = (conf) => {
+  upload(conf).then((res) => {});
+  if (conf.watch) {
+    console.log("触发监听");
+    conf.watch = false;
+  }
+};

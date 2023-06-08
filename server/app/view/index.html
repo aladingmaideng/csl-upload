@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zn-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上传资源到开发机</title>
+</head>
+
+<body>
+    路径前缀：<input type="text" placeholder="路径前缀" id="base"><br />
+    请选择文件：
+    <input type="file" name="file" id="fileInp"><br />
+    <button id="submit">提交</button>
+</body>
+
+</html>
+<script>
+    const params = {
+        'baseUrl': '/Users/cuishoulong_cd/Desktop/a/b/'
+    };
+    const base = document.querySelector('#base');
+    base.addEventListener('change', (e) => {
+        params.baseUrl = e.target.value;
+    })
+    const fileInp = document.getElementById('fileInp');
+    fileInp.addEventListener('change', (e) => {
+        params.file = e.target.files[0];
+    })
+    const submit = document.getElementById('submit');
+    submit.addEventListener('click', () => {
+        console.log('提交');
+        // 建立formData
+        var fd = new FormData();
+        // 向formdata中追加文件
+        for (let key in params) {
+            fd.append(key, params[key])
+        }
+        // 发送请求
+        var xhr = new XMLHttpRequest();
+        // 2.创建请求
+        xhr.open("POST", '/');
+        xhr.send(fd);
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var data = JSON.parse(xhr.responseText)
+                if (data.status === 0) {
+                    alert('上传成功')
+                    console.log('上传成功', data)
+                } else {
+                    alert('上传失败')
+                    // 上传失败
+                    console.log('图片上传失败！' + data.msg)
+                }
+            }
+        }
+    });
+</script>

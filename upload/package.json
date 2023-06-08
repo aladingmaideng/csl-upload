@@ -1,0 +1,17 @@
+{
+  "name": "csl-upload",
+  "version": "1.0.2",
+  "description": "上传脚本",
+  "bin": "./bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cuishoulong",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.1",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.11"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "upload-serve",
+  "version": "1.0.0",
+  "description": "上传服务端",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start --port=8999 --daemon --title=upload-serve",
+    "stop": "egg-scripts stop --title=upload-serve"
+  },
+  "author": "cuishoulong",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^3.16.0",
+    "egg-scripts": "^2.17.0",
+    "egg-view-nunjucks": "^2.3.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^6.4.0"
+  }
+}
