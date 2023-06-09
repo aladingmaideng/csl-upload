@@ -1,0 +1,18 @@
+{
+  "name": "webpack-cslupload-plugin",
+  "version": "1.0.0",
+  "description": "webpack插件，webpack-upload-plugin在v5中失败，于是借鉴其功能，手动实现一套，与server配套使用",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && npm run dev"
+  },
+  "keywords": ["webpack-cslupload-plugin", "上传", "webpack上传插件"],
+  "author": "cuishoulong",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.11",
+    "schema-utils": "^4.1.0"
+  }
+}
