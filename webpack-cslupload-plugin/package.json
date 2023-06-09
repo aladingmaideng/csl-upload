@@ -1,6 +1,6 @@
 {
   "name": "webpack-cslupload-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack插件，webpack-upload-plugin在v5中失败，于是借鉴其功能，手动实现一套，与server配套使用",
   "repository": "https://github.com/aladingmaideng/csl-upload/tree/main/webpack-cslupload-plugin",
   "main": "index.js",
