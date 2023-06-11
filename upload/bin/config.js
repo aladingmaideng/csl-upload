@@ -3,17 +3,17 @@ module.exports = {
   url: {
     option: "-u, --url <url>",
     description: "远程服务端接口地址",
-    default: "http://cslcd.bcc-szzj.baidu.com:8999/",
+    default: "",
   },
   baseUrl: {
     option: "-b, --baseUrl <dir>",
     description: "上传至远程服务器的根目录",
-    default: "/home/map/test/",
+    default: "",
   },
   path: {
     option: "-p, --path <dir>",
     description: "本地目录,需要被上传的目录",
-    default: "src",
+    default: "",
   },
   detail: {
     option: "-d, --detail",

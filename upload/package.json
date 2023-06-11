@@ -1,6 +1,6 @@
 {
   "name": "csl-upload",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "上传脚本",
   "repository": "https://github.com/aladingmaideng/csl-upload/tree/main/upload",
   "bin": "./bin/www",
