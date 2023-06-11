@@ -1,10 +1,10 @@
 {
   "name": "csl-upload",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "上传脚本",
   "repository": "https://github.com/aladingmaideng/csl-upload/tree/main/upload",
   "bin": "./bin/www",
-  "keywords": ["上传", "脚本"],
+  "keywords": ["上传", "脚本", "upload"],
   "author": "cuishoulong",
   "license": "ISC",
   "dependencies": {

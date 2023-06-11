@@ -5,6 +5,7 @@ const promiseReducer = require("./utils/promiseReducer");
 const fetch = require("node-fetch");
 const getTime = require("./utils/getTime");
 const { basename } = require("path");
+const watcher = require("./middleware/watcher");
 async function upload(conf, oncePath) {
   const { path } = conf;
   let urlMap = [];
@@ -43,9 +44,11 @@ async function upload(conf, oncePath) {
 }
 exports.upload = upload;
 exports.default = (conf) => {
-  upload(conf).then((res) => {});
-  if (conf.watch) {
-    console.log("触发监听");
-    conf.watch = false;
-  }
+  upload(conf).then((res) => {
+    if (conf.watch) {
+      console.log(chalk.bgBlue("-------已开启监听模式----------"));
+      conf.watch = false;
+      watcher(conf, upload);
+    }
+  });
 };
